@@ -10,14 +10,3 @@ Aufgabe 1.3
 a)sed -i -n 's/["?.!:;,+&‘]//g;s/ \+/ /g' wotw.txt
 b)grep -w 'road' -c -v wotw.txt
 c)sed 's/["?.!:;,+&‘'\'']/ /g' wotw.txt | tr ' ' '\n' | sed '/^\s*$/d' | sort | uniq -c -i | sort -n -r | head -10
-
-Aufgabe 1.4
-a)git init
-b)git remote add origin git@github.com:RiverIntheSky/BuSUebungen.git
-  git config --global user.name "RiverIntheSky"
-  git config --global user.email itsnotrj@hotmail.com
-  git add *
-  git commit -a -m "Initial commit"
-  git pull git@github.com:RiverIntheSky/BuSUebungen.git
-  git push -u origin master
-
