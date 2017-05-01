@@ -23,8 +23,3 @@ b)git remote add origin git@github.com:RiverIntheSky/BuSUebungen.git
 c)git diff
 d)git log -oneline
 
-Aufgabe 1.5
-a)convert B.png C.jpg temp.pdf
-  pdfunite A.pdf temp.pdf out.pdf
-b)pdftk A.pdf cat 5-9 23 240-242 output Relevant.pdf
-
